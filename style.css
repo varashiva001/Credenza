@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #D0D5DD;
+    width: 1216px;
+    height: 80px;
+    margin-left: 130px;
+}
+.logo {
+    width: 169px;
+    height: 44px;
+    margin-top: 19px;
+    margin-right: 125px
+}
+nav ul {
+    width: 650px;
+    height: 18px;
+    margin-top: 32px;
+}
+nav ul a {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav button {
+    font-size: 18px;
+    width: 130px;
+    height: 44px;
+    margin-top: 19px;
+    left: 1198px;
+    background-color: #333399;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-left: 125px;
+}
+nav ul a:hover {
+    color: #38B4E7;
+}
+.information {
+    width: 1440px;
+    top: 467px;
+}
+.info {
+    width: 755px;
+    height: 251px;
+    margin-top: 76px;
+    padding-left: 342.5px;
+    gap: 25px;
+}
+.para {
+    font-family: IBM Plex Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #333399;
+}
+.par {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+}
+.bar {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.name {
+    width: 335px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+}
+.bar p {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #667085;
+    margin-top: 10px;
+}
+
+
+.photo {
+    margin-left: 130px;
+    border-radius: 12px 0px 0px 0px;
+}
+
+.bar input[type="email"] {
+    padding-left: 10px;
+    font-size: 1em;
+    width: 300px;
+    max-width: 90%;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3a3a99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 14px
+}
+
+.bar a {
+    color: #667085;
+}
+
+.graph {
+    width: 1200px;
+    height: 260px;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.paragraph {
+    width: 765px;
+    height: 84px;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    margin-left: 240px;
+    color: #333333;
+
+}
+
+.features {
+    width: 1200px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features div {
+    width: 210px;
+    height: 124px;
+    border-right: 1px solid #D0D5DD;
+    padding: 45px;
+}
+
+.high {
+    border-right: none;
+}
+
+.features div h2 {
+    font-family: IBM Plex Sans;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 93.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #333399;
+}
+
+.features div h2 span {
+    color: #38B4E7;
+}
+
+.features div p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #38B4E7;
+    margin-top: -40px;
+}
+
+.sec {
+    margin-top: 120px;
+    width: 1222px;
+    height: 498px;
+}
+
+.section {
+    width: 1222px;
+    height: 498px;
+    margin-top: 50px;
+    margin-left: 109px;
+    display: flex;
+}
+
+.section img {
+    width: 700px;
+    height: 498px;
+}
+
+.contact {
+    width: 522px;
+    height: 498px;
+    background: #333399;
+    background-image: url(/logo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+h2 {
+    font-family: IBM Plex Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.parag {
+    width: 532px;
+    margin-top: 1200px;
+    margin-left: 438px;
+    text-align: center;
+}
+
+.parag h2 {
+    color: #333399;
+    margin-top: 10px;
+}
+
+.parag .lib {
+    width: 210px;
+    border-radius: 36px;
+    background-color: #9fc1cf;
+    margin-left: 150px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #38B4E7;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+.parag .learn {
+    color: #38B4E7;
+    margin-top: -35px;
+}
+
+.catalogue {
+    width: 286px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 112px;
+    border-radius: 12px;
+}
+
+.catalogue img {
+    padding-right: 25px;
+}
+
+.header-content {
+    width: 1518px;
+    height: 150px;
+    margin-top: 50px;
+    background-color: #D0D5DD33;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-family: IBM Plex Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #333399;
+}
+
+
+.subscribe-form input[type="email"] {
+    height: 30px;
+    margin-top: 55px;
+    font-size: 1em;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 5px
+}
+
+button {
+    font-size: 1em;
+    background-color: #3a3a99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 11px
+}
+
+.footer {
+    width:1518px;
+    height: 350px;
+    background-color: #333399;
+    padding-top: 1px;
+    background-image: url(/logo.png);
+    background-repeat: no-repeat;
+    background-position:-11% -250% ;
+}
+
+.logo1 {
+    width: 238px;
+    height: 74px;
+    padding-top: 75px;
+    padding-left: 601px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    width: 650px;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px;
+}
+
+
+.footer-nav ul li a {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer nav ul li a:hover {
+    color: #38B4E7;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.footer-bottom p a {
+    color: #38B4E7;
+}
+.footer-links{
+    margin-top: 40px;
+    margin-right: 79px;
+}
+.footer-links a{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color:#FFFFFFCC;
+    text-decoration: none;
+    padding:10px;
+}
